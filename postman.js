@@ -17,3 +17,5 @@
         "updated_at": "2021-10-23T02:24:55.243Z",
         "created_at": "2021-10-23T02:24:55.243Z"
     }
+
+    // https://api.openbrewerydb.org/breweries?by_state=arizona
