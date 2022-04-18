@@ -1,7 +1,7 @@
 body {
     background-color: lightcyan;
     font-family: 'Get Schwifty', cursive;    
-    font-size: 50px;
+    font-size: 25px;
 }
 
 h1 {
@@ -11,5 +11,5 @@ h1 {
 }
 
 button {
-    font-size: 100px;
+    font-size: 25px;
 }
