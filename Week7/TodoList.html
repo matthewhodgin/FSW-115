@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="TodoList.css">
+<body>
+  <h1 class="align">FSW 115 Capstone</h1>
+  
+  <div class ="wrapper">
+    <div class="app">
+        <h4 class="mb-3">TODO App</h4>
+      
+        <div id="addNew" data-bs-toggle="modal" data-bs-target="#form">
+          <span>Add New Task</span>
+          <i class="fas fa-plus"></i>
+        </div>
+
+    </div>
+      
+
+<form
+class="modal fade"
+id="form"
+name="todoForm"
+tabindex="-1"
+aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+
+<h2 class="align">Post METHOD</h2>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add New Task</h5>
+
+    </div>
+    <div class="modal-body">
+      <p>Pokemon</p>
+      <select class= "form-control" name="Name" id="poke"></select>
+      <div id="msg"></div>
+
+      <p>Description</p>
+      <textarea
+        name="Desc"
+        class="form-control"
+        id="textarea"
+        cols="30"
+        rows="5"
+      ></textarea>
+    </div>
+    <div class="modal-footer">
+<br>
+      <!-- <button type="submit" id="add" class="btn btn-primary">Add</button> -->
+    </div>
+  </div>
+</div>
+<button>Add</button>
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
+<script src = "TodoList.js"></script>
+</div>
+</body>
+</html>
